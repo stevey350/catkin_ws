@@ -121,7 +121,7 @@ include_directories(
   include
 )
 
-link_libraries("./libs/x64/libmsc.so")
+link_libraries("${CMAKE_CURRENT_SOURCE_DIR}/libs/x64/libmsc.so")
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
